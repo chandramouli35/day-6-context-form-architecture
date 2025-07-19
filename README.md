@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Day 6 – Modular Signup Form with Context and Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my 150-day developer preparation journey focused on building scalable and production-ready React applications. On Day 6, I engineered a modular, responsive signup form using reusable components, centralized state, and advanced validation techniques.
 
-## Available Scripts
+## ✅ What I Practiced:
+- Reusable `InputField` component accepting label, type, id, and placeholder props
+- `FormWrapper` component to manage submission logic and layout
+- Context API to centralize `formData`, `errors`, and handlers
+- Validation using `onChange` and `onBlur` for real-time feedback
+- Regex-based validation for email and password strength
+- Cross-field validation for confirm password
+- Tailwind CSS layout with responsive design
 
-In the project directory, you can run:
+## 🧠 Key Concepts Covered:
+- Component architecture: separating smart and dumb components
+- Props vs Context: form inputs access state without drilling
+- Regex and state-driven error rendering
+- Modular logic that scales across forms like login, signup, profile edit
 
-### `npm start`
+## 🛠 Features:
+- Dynamic input rendering via props
+- Validation messages per field
+- Context-driven state management for clean architecture
+- Styled UI with Tailwind CSS
+- Mobile-first design responsiveness
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack:
+- React.js with functional components
+- Context API
+- Tailwind CSS
+- Regex for form validation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Why This Matters:
+In real-world apps, forms carry trust and interaction. Today’s structure prevents prop clutter, simplifies validation, and enables clean reuse across multiple flows. It's the kind of clarity top product teams demand.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Day 6 complete. Each modular form brings me closer to engineering excellence and product-level thinking. Ready for Day 7. Let's build.
